@@ -1,0 +1,121 @@
+.formacion {
+    padding: 3rem 9rem 3rem 9rem;
+    display:flex;
+    flex-direction: column;
+    background: #eaf2fd;
+}
+
+.formacion__principal {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.formacion__lista {
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.formacion__lista--items {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.formacion__items {
+    background: #ffffff;
+    width:   25vw;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.formacion__img {
+    width: 150px;
+}
+
+.formacion__texto--principal {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.formacion__texto--secundario {
+    font-size: 1.25rem;
+    font-weight: 100;
+    color: #999999;
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    .formacion {
+        padding: 2rem 1rem 2rem 1rem;    
+    }
+
+    .formacion__principal {
+        font-size: 1.5rem;
+    }
+
+    .formacion__lista {
+        padding-bottom: 0rem;
+    }
+
+    .formacion__items {
+        width: 29vw;
+        height: 150px;
+    }
+
+    .formacion__texto--principal {
+         font-size: 1rem;
+        font-weight: 600;
+     }
+
+     .formacion__lista--items {
+        margin: 0.2rem;
+    }
+
+    .formacion__texto--secundario {
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (min-width:0px) and (max-width:767px) {
+
+    .formacion {
+        padding: 1rem 1rem 1rem 1rem;    
+    }
+
+    .formacion__principal {
+        font-size: 1.3rem;
+    }
+
+    .formacion__lista {
+        padding-bottom: 0rem;
+        justify-content: center;
+    }
+
+    .formacion__items {
+        width: 85vw;
+        height: 150px;
+    }
+
+    .formacion__texto--principal {
+         font-size: 1rem;
+        font-weight: 600;
+     }
+
+     .formacion__lista--items {
+        margin: 0.2rem;
+    }
+
+    .formacion__texto--secundario {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+}

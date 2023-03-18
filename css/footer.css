@@ -1,0 +1,16 @@
+.rodapie__texto{
+    background: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5;
+    font-weight: 400;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+#boton__form:disabled {
+    color: #464646;
+    background: #999999;
+}

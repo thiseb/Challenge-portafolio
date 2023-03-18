@@ -1,0 +1,65 @@
+.sobre__mi {
+    padding: 3rem 10rem 3rem 10rem;
+    display:flex;
+    flex-direction: column;
+    background: #eaf2fd;
+}
+
+.sobre__mi--principal {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.sobre__mi--secundario {
+    max-width: 70%;
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+    font-weight: 100;
+}
+
+.firma__personal {
+    max-width: 15vw;
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .sobre__mi {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .sobre__mi--principal {
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding-bottom: 1rem;
+    }
+
+    .firma__personal {
+        max-width: 20vw;
+    }
+
+    .sobre__mi--secundario {
+        max-width: 100%;
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:767px) {
+    .sobre__mi {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .sobre__mi--principal {
+        font-size: 1.3rem;
+        font-weight: 600;
+        padding-bottom: 1rem;
+    }
+
+    .firma__personal {
+        max-width: 35vw;
+    }
+
+    .sobre__mi--secundario {
+        max-width: 100%;
+        font-size: 1rem;
+    }
+}

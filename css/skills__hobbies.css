@@ -1,0 +1,136 @@
+.skills__hobbies {
+    padding: 3rem 8rem 3rem 9rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills__hobbies--principal {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.skills {
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.skills__items {
+    background: #ffffff;
+    padding-bottom: 1rem;
+    margin:0.2rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    width: 11vw;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.skills__items:hover {
+    background:#eaf2fd;
+} 
+
+.skills__img {
+    max-width: 32px;
+}
+
+.hobbies {
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.hobbies__items {
+    background: #ffffff;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    margin:0.2rem;
+    margin-bottom: 1rem;
+    width: 11vw;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.hobbies__items:hover {
+    background:#eaf2fd;
+}
+
+.hobbies__img {
+    width: 32px;
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    .skills__hobbies {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .skills__hobbies--principal {
+        font-size: 1.5rem;
+    }
+
+    .skills {
+        padding-bottom: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .skills__items {
+        width: 27vw;
+        height: 110px;
+    }
+
+    .hobbies {
+        padding-bottom: 0rem;
+        flex-wrap: wrap;
+    }
+
+    .hobbies__items {
+        width: 27vw;
+        height: 110px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:767px) {
+
+    .skills__hobbies {
+        padding: 1rem 1rem 0rem 1rem;
+    }
+
+    .skills__hobbies--principal {
+        font-size: 1.3rem;
+        padding-bottom: 1rem;
+    }
+
+    .skills {
+        padding-bottom: 1rem;
+        flex-wrap: wrap;
+        padding-bottom: 0;
+    }
+
+    .skills__items {
+        width: 36vw;
+        height: 110px;
+    }
+
+    .hobbies {
+        padding-bottom: 0rem;
+        flex-wrap: wrap;
+    }
+
+    .hobbies__items {
+        width: 36vw;
+        height: 110px;
+    }
+}

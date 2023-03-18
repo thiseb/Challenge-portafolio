@@ -1,0 +1,59 @@
+.cabecera {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 10rem 3rem 10rem; 
+    font-size: 1.25;  
+}
+
+.cabecera__nombre {
+    font-weight: 700;
+}
+
+.cabecera__navegacion {
+    text-align: center;
+}
+
+.cabecera__enlace {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.cabecera__enlace--correo {
+    font-weight: 700;
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+ .cabecera {
+    padding: 1rem 1rem 2rem 1rem; 
+}
+
+.cabecera__enlace {
+    display: none;
+}
+
+.cabecera__enlace--correo {
+    display: block;
+}
+
+
+}
+
+@media screen and (min-width:0px) and (max-width:767px) {
+
+    .cabecera {
+       padding: 1rem 1rem 2rem 1rem; 
+   }
+   
+   .cabecera__enlace {
+       display: none;
+   }
+   
+   .cabecera__enlace--correo {
+       display: block;
+       font-weight: 100;
+   }
+   
+   
+   }
